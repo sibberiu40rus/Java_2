@@ -1,3 +1,7 @@
+/**
+ * Java_2_Lesson_1
+ * @autor Martynyuk Alexey
+ */
 package Marathon.Obstacle;
 
 import Marathon.Competitor;

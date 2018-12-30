@@ -13,6 +13,7 @@ public class Team {
         this.competitors = competitors;
     }
 
+    //Метод для вывода информации о команде
     public void infoTeam() {
         for (Competitor c : competitors) {
             c.info();
