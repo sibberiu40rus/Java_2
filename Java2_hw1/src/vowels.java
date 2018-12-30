@@ -1,3 +1,8 @@
+/**
+ * Java_2_Lesson_1
+ * @author Martynyuk Alexey
+ */
+
 public class vowels {
     public static void main(String[] args) {
         String text = "bc yfammacoqlwgjj yrtstrcw  hujqgqvqqjcrsdhdb\n" +
@@ -21,11 +26,11 @@ public class vowels {
         Character[] vowels = {'a', 'o', 'u', 'i', 'e', 'y'};
 
         String[] str = text.split("\n");
-        int totalVowels = 0;
+        int totalVowels = 0;                                        //переменная для подсчета гласных всего в тексте
 
 
         for (int i = 0; i < str.length; i++) {
-            int count = 0;
+            int count = 0;                                          //переменная для подсчета гласных в каждой строке
             for (Character character : str[i].toCharArray())
                 for (Character vowel : vowels)
                     if (character.equals(vowel)) {
